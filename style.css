@@ -12,6 +12,7 @@ body
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    background-color: rgb(105, 152, 156);
 }
 img{
     width: 500px;
@@ -46,10 +47,10 @@ p{
 {
   content: '+';  
   position: absolute;
-  left:1%;
+  right:10%;
   top: 50%;
   transform: translateY(-45%);
-  font-size:1.5em;
+  font-size:2.5em;
 
 }
 .accordion .contentBx.active .label::before
